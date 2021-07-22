@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+    <h1>Terminal</h1>
+    <p class="info">zsh / bash</p>
+    
+    <article class="codebox">
+        <h2>Navigation</h2>
+        <div class="code">
+            <p>List all files and folders:</p>
+            <div class="line">% ls<br>
+                % ls [folder name]<br>
+                <br>
+                -l show as list<br>
+                -a show hidden<br>
+                -1 show as single column<br>
+            </div>
+            <br>
+            <p>Change directory</p>
+            <div class="line">% cd<br>
+                % cd [folder name]<br>
+                % cd ..<br>
+                % cd ~
+            </div>
+            <br>
+            <p>Show current path</p>
+            <div class="line">% pwd</div>
+            <br>
+            <p>Clear console</p>
+            <div class="line">% clear</div>
+        </div>
+    </article>
+
+    <br>
+    <br>
+
+    <article class="codebox">
+        <h2>File system</h2>
+        <div class="code">
+            <p>Create a file / folder:</p>
+            <div class="line">
+                % touch [file name]<br>
+                % mkdir [folder name]
+            </div>
+            <br>
+            <p>Move or rename a file / folder:</p>
+            <div class="line">
+                % mv [file or folder name] [target or new name]
+            </div>
+            <br>
+            <p>Copy file:</p>
+            <div class="line">
+                % cp [file name] [target]
+            </div>
+            <br>
+            <p>Delete file:</p>
+            <div class="line">
+                % rm [file name] [file2 name] [file3 name]<br>
+                <br>
+                -i ask the user for confirmation before removing<br>
+                -r recursive deletion for all files and sub-directories<br>
+                -f force deletion<br>
+            </div>
+            <br>
+            <p>Delete empty folder:</p>
+            <div class="line">
+                % rmdir [folder name]<br>
+            </div>
+            <br>
+            <p>Show file content:</p>
+            <div class="line">% cat [file name]</div>
+        </div>
+    </article>
+
+    <br>
+    <br>
+
+    <article class="codebox">
+        <h2>Applications</h2>
+        <div class="code">
+            <p>Nano editor:</p>
+            <div class="line">% nano</div>
+            <br>
+            <p>Apache HTTP Server:</p>
+            <div class="line">
+                % sudo apachectl restart<br>
+                % httpd -v check the current version<br>
+            </div>
+        </div>
+    </article>
+
+    <br>
+    <br>
+
+    <article class="codebox">
+        <h2>Processes</h2>
+        <div class="code">
+            <p>Show the current shell process:</p>
+            <div class="line">% ps<br>
+                <br>
+                -e show all running processes<br>
+            </div>
+            <br>
+            <p>Show process by process id:</p>
+            <div class="line">
+                % ps p [process id]
+            </div>
+            <br>
+            <p>Terminate a process:</p>
+            <div class="line">% kill [process id]</div>
+        </div>
+        <br><br><br><br><br><br><br><br><br>
+        <div class="codeinfo">
+            PID – process ID<br>
+            TTY – terminal type<br>
+            TIME – time spent on process running<br>
+            CMD – command that launched the process<br>
+        </div>
+    </article>
+
+    <br>
+    
+    <div class="copyright">© 2021 Airplane Modes Network</div>
+
+</body>
+</html>
