@@ -128,7 +128,45 @@
     </article>
 
     <br>
+    <br>
     
+    <article class="codebox">
+        <h2>Curl</h2>
+        <div class="code">
+            <p>GET request</p>
+            <div class="line">% curl https://myfakeapi.com/api/cars/3</div>
+            <br>
+
+            <p>More detailed:</p>
+            <div class="line">
+                % curl -v https://jsonplaceholder.typicode.com/albums/2
+            </div>
+            <br>
+
+            <p>Save the output into a file</p>
+            <div class="line">
+                % curl -o emma.json https://reqres.in/api/users/3
+            </div>
+            <br>
+
+            <p>Detailed request:</p>
+            <div class="line">
+                % curl -X [method] -H [header] -d [data]
+            </div>
+            <br>
+
+            <p>POST request</p>
+            <div class="line">
+                % curl -X POST -d '{"name":"Neo","job":"Chosen One"}' https://reqres.in/api/users/
+            </div>
+            <br>
+
+            </div>
+    </article>
+
+    <br>
+    <br>
+
     <div class="copyright">© 2021 Airplane Modes Network</div>
 
 </body>
